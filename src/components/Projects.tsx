@@ -4,25 +4,18 @@ import AnimatedSection from "./AnimatedSection";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured online store with payment integration, user authentication, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    link: "#"
+    title: "Farmstedi",
+    description: "Farmstedi help farmers detect weather patterns and help them decide on the best crops to cultivate and also gives them the most efficient irrigation schedules.",
+    image: "https://images.unsplash.com/photo-1602867741746-6df80f40b3f6?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    technologies: ["Node.js", "MongoDB", "Express", "LLMs", "GeminiAI", "LangChain"],
+    link: "https://github.com/PeterImade/Farmstedi", 
   },
   {
-    title: "Healthcare Management System",
-    description: "A comprehensive system for managing patient records, appointments, and medical histories.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    technologies: [".NET Core", "SQL Server", "Angular", "Azure"],
-    link: "#"
-  },
-  {
-    title: "Task Management App",
-    description: "A collaborative tool for teams to manage projects, track progress, and meet deadlines.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    technologies: ["React", "Firebase", "TypeScript", "Material UI"],
-    link: "#"
+    title: "IT Training Portal",
+    description: "A Learning Management System (LMS) with task management, class scheduling, secure payments, real-time messaging, and role-based access for students, instructors and admins, supporting over 500+ active users.",
+    image: "https://images.unsplash.com/photo-1600195077909-46e573870d99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhcm58ZW58MHx8MHx8fDA%3D",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe", "AWS"],
+    link: "https://gurugeeksacademy.com/"
   }
 ];
 
@@ -75,6 +68,7 @@ const Projects = () => {
                   
                   <a 
                     href={project.link} 
+                    target="_blank"
                     className="inline-flex items-center text-accent font-medium text-sm hover:underline"
                   >
                     View Project <ArrowUpRight className="w-4 h-4 ml-1" />

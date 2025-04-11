@@ -23,7 +23,7 @@ const Hero = () => {
         <AnimatedSection className="w-full mb-12 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-3/5 text-center md:text-left">
             <span className="inline-block px-3 py-1 mb-4 text-xs font-medium bg-accent/10 text-accent rounded-full">
-              Full Stack Developer
+              Software Developer
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight text-balance">
               <span className="block text-offwhite opacity-85">I craft robust,</span>
@@ -56,7 +56,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white/20 glass-morphism animate-float">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent opacity-70"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" 
+                  src="" 
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />

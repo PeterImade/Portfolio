@@ -14,14 +14,14 @@ const experiences = [
     period: "Jul 2024 - Dec 2024",
   },
   {
-    position: "Full Stack Developer",
+    position: "Software Engineer",
     company: "SDSD",
-    period: "Aug 2022 - Jul 2024",
+    period: "Feb 2022 - Nov 2024",
   },
   {
     position: "Software Engineer Intern",
     company: "Codebits Academy",
-    period: "Jan 2022 - Jun 2022",
+    period: "Aug 2021 - Jan 2022",
   }
 ];
 

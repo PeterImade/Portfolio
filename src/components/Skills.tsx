@@ -6,12 +6,12 @@ const skills = [
   {
     category: "Backend",
     icon: <Server className="w-6 h-6 text-accent" />,
-    technologies: ["C#", ".NET Core Web API", ".NET Core MVC", "Node.js", "Express.js", "Python"]
+    technologies: ["C#", ".NET Core", "Node.js", "Express.js", "Python", "FastAPI"]
   },
   {
     category: "Frontend",
     icon: <Layout className="w-6 h-6 text-accent" />,
-    technologies: ["Angular", "Blazor", "HTML/CSS", "JavaScript/TypeScript"]
+    technologies: ["Angular", "React", "Blazor", "HTML/CSS", "JavaScript/TypeScript"]
   },
   {
     category: "Database",
@@ -21,7 +21,7 @@ const skills = [
   {
     category: "Development",
     icon: <Code className="w-6 h-6 text-accent" />,
-    technologies: ["Git", "CI/CD", "Docker", "Agile/Scrum", "RESTful API Design"]
+    technologies: ["Git", "CI/CD", "Docker", "Render", "Agile/Scrum", "RESTful API Design", "AWS", "Azure"]
   }
 ];
 
