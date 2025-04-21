@@ -15,7 +15,7 @@ const About = () => {
               
               <div className="space-y-4 text-offwhite/70">
                 <p className="leading-relaxed">
-                  I'm a Full Stack Developer with over 5 years of industry experience, 
+                  I'm a Full Stack Developer with over 4 years of industry experience, 
                   specializing in creating robust, scalable applications with modern technologies.
                 </p>
                 <p className="leading-relaxed">
@@ -43,7 +43,7 @@ const About = () => {
                 </div>
                 
                 <div className="glass-morphism absolute -bottom-8 -left-8 p-6 rounded-xl max-w-xs">
-                  <div className="text-xl font-bold text-accent mb-1">5+</div>
+                  <div className="text-xl font-bold text-accent mb-1">4+</div>
                   <div className="text-offwhite/90 text-sm">Years of professional experience</div>
                 </div>
                 

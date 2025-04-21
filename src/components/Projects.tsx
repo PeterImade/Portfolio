@@ -4,6 +4,20 @@ import AnimatedSection from "./AnimatedSection";
 
 const projects = [
   {
+    title: "Aptos Monkey",
+    description: "A website for an NFT project. Created to keep their user community engaged and informed.",
+    image: "https://res.cloudinary.com/dnc36f0i0/image/upload/v1745237727/nft_my3vin.png",
+    technologies: ["React", "TypeScript", "SCSS"],
+    link: "https://www.aptosmonkeys.club/"
+  },
+  {
+    title: "Entertainment App",
+    description: "An implementation of a fullstack entertainment app design from frontend mentor",
+    image: "https://res.cloudinary.com/dnc36f0i0/image/upload/v1745238040/entertainment_ompyek.png",
+    technologies: ["React.js", "TypeScript", "SCSS"],
+    link: "https://entertainment-web-app-iota-sooty.vercel.app/", 
+  },
+  {
     title: "Farmstedi",
     description: "Farmstedi help farmers detect weather patterns and help them decide on the best crops to cultivate and also gives them the most efficient irrigation schedules.",
     image: "https://images.unsplash.com/photo-1602867741746-6df80f40b3f6?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

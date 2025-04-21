@@ -31,7 +31,7 @@ const Hero = () => {
               <span className="text-accent">with modern tech.</span>
             </h1>
             <p className="text-lg md:text-xl text-offwhite/70 max-w-xl mb-8">
-              With 5 years of industry experience, I build efficient and elegant solutions 
+              With 4 years of industry experience, I build efficient and elegant solutions 
               to complex problems.
             </p>
 
@@ -56,13 +56,13 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white/20 glass-morphism animate-float">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent opacity-70"></div>
                 <img 
-                  src="" 
+                  src="https://res.cloudinary.com/dnc36f0i0/image/upload/v1745238351/WhatsApp_Image_2025-04-21_at_1.24.38_PM_1_vvxmtp.jpg" 
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent rounded-full flex items-center justify-center text-white text-sm font-medium border-4 border-navy animate-pulse-slow">
-                5+ Years<br/>Experience
+                4+ Years<br/>Experience
               </div>
             </div>
           </div>
